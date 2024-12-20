@@ -1,13 +1,11 @@
-# Lesson #: TOPIC
+# Lesson #: Test Day
 
 ## Warm-up (10 minutes)
 
 ## Written Question (5 minutes)
 
-## Lecture Content (20 minutes)
+None.
 
-## Problem Solving (35 minutes)
+## Lecture Content (75 minutes)
 
-## Recap (15 minutes)
-
-## Additional Resources
+Today's classroom time is dedicated to an assesment exam.
