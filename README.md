@@ -5,10 +5,13 @@ This repository contains a structured curriculum for learning Data Structures an
 ## Repository Structure
 
 Each lesson folder contains:
+
 - `warmup.js` - Syntax exercises and coding challenges
 - `README.md` - Lecture content, written questions, and notes
 - `problem.js` - LeetCode-style problem implementation
 - `problem.test.js` - Test cases for the problem
+
+## Lesson Structure
 
 ## Getting Started
 
