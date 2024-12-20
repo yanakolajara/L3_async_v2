@@ -10,6 +10,8 @@
  * @param {string} str - The input string.
  * @returns {boolean} - True if the string is a palindrome, false otherwise.
  */
-function isPalindrome(str) {}
+function isPalindrome(str) {
+  // your code here
+}
 
 module.exports = isPalindrome;

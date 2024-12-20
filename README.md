@@ -40,7 +40,16 @@ Each lesson will follow a standard pattern.
 - Problem Solving (35 minutes)
 - Recap (15 minutes)
 - Additional Resources
-- Getting Started
+
+## Getting Started
 
 1. Fork this repository
 2. Clone your forked repository
+
+## Running Tests
+
+Each lesson folder comes with a `problem.test.js` file that contains tests for that lesson's problems.
+In order to run the test for that lesson got to your terminal and type
+`npm run test ./lesson**`, where `**` is the lesson number.
+Then hit `tab` to autocomplete the folder.
+This should run only the tests for that particular lesson.

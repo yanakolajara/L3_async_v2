@@ -4,7 +4,7 @@
   "description": "This repository contains a structured curriculum for learning Data Structures and Algorithms using JavaScript. Each lesson is designed for a 90-minute class period and includes comprehensive materials for both instruction and practice.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
