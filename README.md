@@ -4,18 +4,22 @@ This repository contains a structured curriculum for learning Data Structures an
 
 ## Topics
 
-- Strings
-- Arrays
-- Hash Tables
-- Stacks
-- Queues
-- Linked Lists
-- Two Pointer
-- Binary Search
-- Sliding Window
-- Interview Training
-- Recursion
-- Abstract Data Types
+- Test Driven Development (Lesson 01)
+- Strings (Lesson 02 - Lesson 03)
+- Interview Training (Lesson04.5)
+- Arrays (Lesson 05 - Lesson 6, Lesson 28 - Lesson 29)
+- Big O Notation (Lesson 07, Lesson 10)
+- Hash Tables (Lesson 08 - Lesson 09)
+- Stacks & Queues(Lesson 11 - Lesson 13)
+- Conditional Logic (Lesson 14 - Lesson 15)
+- Two Pointer (Lesson 18 - Lesson 19)
+- Binary Search (Lesson 20 - Lesson 21)
+- Sliding Window (Lesson 22 - Lesson 23)
+- Abstract Data Types/Classes (Lesson 24)
+- Linked Lists (Lesson 25 - Lesson 26)
+- Building A Queue (Lesson )
+- Recursion (Lesson 30 - Lesson 31)
+- Binary Search Trees (Lesson 32 - Lesson 33)
 
 ## Repository Structure
 
