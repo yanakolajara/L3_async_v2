@@ -1,22 +1,41 @@
-// Warm-up Exercises: JavaScript String Methods
+// 1. given a string with three characters, return the second character
 
-// 1. Create a function that capitalizes the first letter of each word in a sentence
-function capitalizeWords(sentence) {
-    // Your code here
-}
+// 2. get the second and third char from a string. the string will always have atleast three characters
 
-// 2. Create a function that counts the number of vowels in a string
-function countVowels(str) {
-    // Your code here
-}
+// 'cat' => 'at'
+// 'robbed' => 'ob'
 
-// 3. Create a function that reverses a string without using the built-in reverse() method
-function reverseString(str) {
-    // Your code here
-}
+// 3. Given a word with 5 letters, return the second through 5th letter
 
-// Sample usage:
-const sentence = "hello world of javascript";
-console.log(capitalizeWords(sentence));  // Should output: "Hello World Of Javascript"
-console.log(countVowels(sentence));      // Should output: 6
-console.log(reverseString(sentence));    // Should output: "tpircsavaj fo dlrow olleh"
+// function getSecondThroughFifthLetter (word){
+//   return word.slice(1);
+// }
+
+// 4. given a string and a number called N, return the second through the Nth character
+
+// 'schoolbus', 5 => 'choo'
+// 'telephone', 6 => 'eleph
+
+// slice is a ?? method: array and also a string method
+// splice is a array method
+
+// 5. Given an array of booleans, return an arrray of only false elements
+
+// [true, true, false, true , false] => [false, false]
+
+// 6. given a string with two words, put ' the ' between the words and return the string
+
+// 'to beach' => 'to the beach'
+// 'for real' => 'for the real'
+// 'jim john' => 'jim the john'
+// 'to house' => 'to the house'
+
+// 7.  given two numbers, price and discount, return the price after the discount is applied
+
+// price is 100 and discount is 15
+
+// 100, 15 => 85
+
+// 70, 3 => 67.9
+
+// Console.log each of your answers with the test cases provided. Attempt to write each one with TDD.

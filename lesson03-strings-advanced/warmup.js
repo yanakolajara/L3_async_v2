@@ -1,22 +1,25 @@
-// Warm-up Exercises: Advanced String Operations
+// 1. Given two strings, return true if the strings are anagrams and false if not. Ignore spaces.
 
-// 1. Create a function that validates an email address using regex
-function validateEmail(email) {
-    // Your code here
-}
+// "aba", "baa" => true
+// "hub", "huc" => false
+// "aa bb", "a b a b" => true
+// "ABA", "aba" => false
+//  "aabbb", "baabb" => true
+// "a&!#bb", "aaabbbb" => false
+//  "a&!#bb", "abb" => true
 
-// 2. Create a function that extracts all numbers from a string
-function extractNumbers(str) {
-    // Your code here
-}
+// 2. Solve the same problem as above but do not sort the strings. What is the difference in time complexity when we don't sort the strings?
 
-// 3. Create a function that masks all but the last 4 characters of a string
-function maskString(str) {
-    // Your code here
-}
+// "aba", "baa" => true
+// "hub", "huc" => false
+// "aa bb", "a b a b" => true
+// "ABA", "aba" => false
+//  "aabbb", "baabb" => true
+// "a&!#bb", "aaabbbb" => false
+//  "a&!#bb", "abb" => true
 
-// Sample usage:
-console.log(validateEmail("test@example.com"));     // Should output: true
-console.log(validateEmail("invalid.email@com"));    // Should output: false
-console.log(extractNumbers("abc123def456"));        // Should output: ["123", "456"]
-console.log(maskString("1234567890"));             // Should output: "******7890"
+// 3. Given two strings, how many characters would need to be added or replacedin order to make them anagrams
+
+// "abad", "abcd" => 1
+//  "aabb", "baba" => 0
+// "aaaazzzz", "bbbbwwww" => 8
