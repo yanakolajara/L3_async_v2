@@ -9,3 +9,5 @@
 ## Problem Solving (35 minutes)
 
 ## Recap (15 minutes)
+
+## Additional Resources

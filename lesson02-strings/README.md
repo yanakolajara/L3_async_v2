@@ -31,3 +31,5 @@ Explain why strings are immutable in JavaScript and what implications this has f
 - Best practices for string manipulation
 
 ### Example Operations
+
+## Additional Resources

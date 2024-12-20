@@ -42,3 +42,5 @@ Today's problem focuses on implementing a string matching algorithm to find all 
 - Review of string matching algorithms
 - Performance comparison
 - Best practices discussion
+
+## Additional Resources

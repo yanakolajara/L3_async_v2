@@ -44,3 +44,5 @@ test("sum function should return the correct sum of two numbers", () => {
 Test-Driven Development (TDD) is highly relevant to Data Structures and Algorithms (DSA) and tech interviews. By following TDD principles, developers can ensure that their code is correct, efficient, and reliable. TDD helps in understanding the problem requirements clearly, designing modular and testable code, and gaining confidence in making changes without introducing bugs. Additionally, TDD provides built-in documentation for the code, making it easier for others to understand and maintain. In DSA and tech interviews, TDD demonstrates a disciplined approach to problem-solving and showcases the ability to write clean and robust code. It also helps in identifying edge cases and handling them effectively. Overall, TDD is an essential skill for developers preparing for DSA and tech interviews.
 
 Additional Resources:
+
+## Additional Resources
