@@ -7,37 +7,59 @@ describe('Stack', () => {
     stack = new Stack();
   });
 
-  test('push adds an item to the stack', () => {
-    stack.push(10);
-    expect(stack.peek()).toBe(10);
+  describe('push()', () => {
+    test('adds an item to the stack', () => {
+      stack.push(10);
+      expect(stack.items).toEqual([10]); // Directly verify the internal state
+    });
+
+    test('adds multiple items to the stack', () => {
+      stack.push(10);
+      stack.push(20);
+      stack.push(30);
+      expect(stack.items).toEqual([10, 20, 30]);
+    });
   });
 
-  test('pop removes and returns the top item', () => {
-    stack.push(20);
-    expect(stack.pop()).toBe(20);
-    expect(stack.isEmpty()).toBe(true);
+  describe('pop()', () => {
+    test('removes and returns the top item from the stack', () => {
+      stack.items = [10, 20];
+      const popped = stack.pop();
+      expect(popped).toBe(20);
+      expect(stack.items).toEqual([10]);
+    });
+
+    test('returns null if the stack is empty', () => {
+      stack.items = [];
+      const popped = stack.pop();
+      expect(popped).toBeNull();
+    });
   });
 
-  test('peek returns the top item without removing it', () => {
-    stack.push(30);
-    expect(stack.peek()).toBe(30);
-    expect(stack.isEmpty()).toBe(false);
+  describe('peek()', () => {
+    test('returns the top item without removing it', () => {
+      stack.items = [10, 20, 30];
+      const top = stack.peek();
+      expect(top).toBe(30);
+      expect(stack.items).toEqual([10, 20, 30]); // Ensure stack remains unchanged
+    });
+
+    test('returns null if the stack is empty', () => {
+      stack.items = [];
+      const top = stack.peek();
+      expect(top).toBeNull();
+    });
   });
 
-  test('isEmpty returns true for an empty stack', () => {
-    expect(stack.isEmpty()).toBe(true);
-  });
+  describe('isEmpty()', () => {
+    test('returns true for an empty stack', () => {
+      stack.items = [];
+      expect(stack.isEmpty()).toBe(true);
+    });
 
-  test('isEmpty returns false for a non-empty stack', () => {
-    stack.push(40);
-    expect(stack.isEmpty()).toBe(false);
-  });
-
-  test('pop returns null if the stack is empty', () => {
-    expect(stack.pop()).toBeNull();
-  });
-
-  test('peek returns null if the stack is empty', () => {
-    expect(stack.peek()).toBeNull();
+    test('returns false for a non-empty stack', () => {
+      stack.items = [10];
+      expect(stack.isEmpty()).toBe(false);
+    });
   });
 });
