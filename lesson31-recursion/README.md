@@ -1,48 +1,61 @@
-# Lesson 31: Intermediate Recursion
+# Lesson 31: Intermediate Recursion — Backtracking
 
 ## Warm-up (10 minutes)
 
 ### Written Question
-In your own words, describe what backtracking is and how it differs from a simple recursive approach. Provide a brief example of a problem where you would use backtracking.
+Backtracking is a technique that builds on recursion to explore multiple potential solutions. In your own words, explain:
+1. What backtracking is.
+2. How it differs from a simple recursive function.
+3. Why it is helpful in solving complex problems like puzzles, mazes, or combinatorial tasks.
 
 ## Lecture Content (20 minutes)
 
-### What is Backtracking?
-Backtracking is a refinement of recursion used to explore all possible solutions to a problem. If a particular path does not yield a valid result, the algorithm backtracks (reverses its last step) and tries a different path.
+### 1. Recursion Refresher
+Recursion is when a function calls itself to solve smaller subproblems until it reaches a base case. We typically break a problem down into:
+- **Base Case**: A simple scenario where no further recursive calls are needed.
+- **Recursive Case**: The function calls itself with smaller or modified data until the base case is reached.
 
-1. **Key Characteristics**  
-   - Systematically explores multiple paths to find a solution.  
-   - Often used to solve combinatorial problems (e.g., generating permutations, combinations, or solving puzzles like Sudoku).  
-   - Involves “trying” a choice, then recursing to see if that choice leads to a solution. If not, the choice is undone (backtracked) and another path is explored.
+### 2. Introduction to Backtracking
+**Backtracking** is a specialized form of recursion that is used to:
+- Explore **all possible solutions** or paths in a problem space.
+- **“Undo”** (or backtrack) a decision when it leads to a dead end, returning to a previous state to explore another path.
 
-2. **When to Use Backtracking**  
-   - Problems with many potential configurations or paths.  
-   - Must systematically explore or generate these paths (e.g., maze-solving, N-Queens problem, generating permutations).
+Key points:
+1. **Systematic Exploration**: We try a possible move (or choice). If we reach a valid end, we succeed; if not, we **backtrack** by undoing that move and try a different one.
+2. **Pruning**: We can often detect invalid paths early and skip exploring them entirely, improving efficiency.
+3. **Common Uses**: Maze-solving, N-Queens problem, permutations & combinations, Sudoku, word search puzzles, and more.
 
-3. **Typical Approach**  
-   - **Choice**: Decide on the next element or step.  
-   - **Explore**: Recursively explore what follows from that choice.  
-   - **Backtrack**: If the choice leads to a dead end, undo it and make a different choice.
+### 3. Backtracking Workflow
+1. **Choose**: Pick a possibility or make a decision.
+2. **Explore**: Recursively solve the next part of the problem.
+3. **Check**: If the solution leads to success, great! If it doesn’t:
+4. **Backtrack**: Undo the last decision and try another possibility.
 
-### Example: Maze Navigation (Conceptual)
-Imagine a grid-based maze with open cells and blocked cells. We can use backtracking by moving in one direction at a time and “backtracking” if we reach a dead end.
+### 4. Example: Maze Navigation (Conceptual)
+Imagine you’re at the entrance of a maze. You can move up, down, left, or right, but some paths are blocked by walls. With backtracking:
+1. You **choose** a direction and step forward.
+2. You **explore** deeper in that direction by recursively doing the same checks.
+3. If you reach a dead end, you **backtrack** to the last position and try a new direction.
 
-### Advantages of Backtracking
-- Allows you to systematically explore all solutions.  
-- Can handle complex, multi-step problems like pathfinding, permutations, or puzzle-solving.
+### 5. Advantages and Considerations
+- **Advantages**:
+  - Straightforward approach to systematically find a valid path (or all valid paths).
+  - Works well for complex combinatorial problems where multiple trials are necessary.
 
-### Disadvantages of Backtracking
-- Potentially expensive in terms of time complexity, especially for large problems.  
-- Must be careful to prune paths or detect dead ends early to avoid excessive computation.
+- **Considerations**:
+  - Potentially high time complexity if many paths exist.
+  - Must ensure we detect and avoid revisiting states that lead to loops (e.g., marking visited positions in a maze).
 
 ## Problem Solving (35 minutes)
-- Implement a **maze solver** that uses backtracking to find a path from the top-left corner to the bottom-right corner of a grid.
+We’ll implement a **backtracking** solution to find a path through a maze. The maze will be represented by a 2D array of `0`s (open paths) and `1`s (walls). The goal is to move from the **top-left corner** `(0,0)` to the **bottom-right corner** `(n-1,m-1)` if a path exists.
 
 ## Recap (15 minutes)
-- Compare a straightforward recursion approach to one that requires backtracking.  
-- Discuss strategies to optimize backtracking solutions (e.g., pruning).  
-- Emphasize understanding the call stack and the process of undoing decisions.
+1. **Define Backtracking**: A method to explore possible solutions and revert (backtrack) upon failure.
+2. **Contrast with Simple Recursion**: Simple recursion tackles a single path until it finishes; backtracking may handle multiple branching paths and revert partial progress.
+3. **Where to Use**: Maze-solving, puzzle-solving, generating permutations, search problems, etc.
+4. **Optimization**: Use pruning or check constraints early to avoid exploring obviously invalid branches.
 
 ## Additional Resources
-- [GeeksforGeeks: Backtracking](https://www.geeksforgeeks.org/backtracking-algorithm/)  
-- [MDN Web Docs: Recursion and Stack](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)  
+- [GeeksforGeeks: Backtracking Algorithm](https://www.geeksforgeeks.org/backtracking-algorithm/)
+- [MDN Web Docs: Understanding Recursion](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
+- [FreeCodeCamp: Recursion and Backtracking Examples](https://www.freecodecamp.org/news/tag/recursion/)
