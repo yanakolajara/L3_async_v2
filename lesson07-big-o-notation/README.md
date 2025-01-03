@@ -23,6 +23,7 @@
 3. **Visualizing Big O**
 
    - Use graphical representations to compare how different functions grow. Graph the number of operations versus the size of the input for various complexities.
+   - https://miro.medium.com/v2/resize:fit:1300/format:webp/1*6mpaXFsrRPFXSKXK5Qgm8w.png
 
 4. **Best, Worst, and Average Cases**
    - Describe how algorithms can have different complexities depending on the input and how big O focuses on the worst-case scenario to ensure algorithm robustness.
