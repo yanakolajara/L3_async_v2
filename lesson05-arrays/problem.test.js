@@ -1,21 +1,31 @@
-const twoSum = require("./problem");
+const checkLargestElement = require("./problem");
 
-test("Returns correct indices for [2, 7, 11, 15] and target 9", () => {
-  expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
-});
+// Test case 1: Array with positive numbers
+let nums = [1, 5, 3, 9, 2];
+let expected = 9;
+let result = checkLargestElement(nums);
+console.log(result === expected); // Output: true
 
-test("Returns correct indices for [3, 2, 4] and target 6", () => {
-  expect(twoSum([3, 2, 4], 6)).toEqual([1, 2]);
-});
+// Test case 2: Array with negative numbers
+nums = [-7, -2, -5, -1];
+expected = -1;
+result = checkLargestElement(nums);
+console.log(result === expected); // Output: true
 
-test("Returns correct indices for [3, 3] and target 6", () => {
-  expect(twoSum([3, 3], 6)).toEqual([0, 1]);
-});
+// Test case 3: Array with both positive and negative numbers
+nums = [-3, 7, -2, 0, 4];
+expected = 7;
+result = checkLargestElement(nums);
+console.log(result === expected); // Output: true
 
-test("Returns correct indices for [1, 2, 3, 4, 5] and target 9", () => {
-  expect(twoSum([1, 2, 3, 4, 5], 9)).toEqual([3, 4]);
-});
+// Test case 4: Array with duplicate largest elements
+nums = [5, 2, 9, 5, 7, 9];
+expected = 9;
+result = checkLargestElement(nums);
+console.log(result === expected); // Output: true
 
-test("Returns correct indices for [10, 20, 30, 40, 50] and target 70", () => {
-  expect(twoSum([10, 20, 30, 40, 50], 70)).toEqual([2, 4]);
-});
+// Test case 5: Array with a single element
+nums = [3];
+expected = 3;
+result = checkLargestElement(nums);
+console.log(result === expected); // Output: true

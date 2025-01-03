@@ -1,17 +1,10 @@
-/* TwoSum: Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice. */
-// // Examples:
-// // Given nums = [2, 7, 11, 15], target = 9,
-// // Because nums[0] + nums[1] = 2 + 7 = 9,
-// // return [0, 1].
+// Prompt: Determine whether the largest element in the array is at least twice as much as every other number in the array. If it is, return the index of the largest element, or return -1 otherwise.
 
-// // Given nums = [3, 2, 4], target = 6,
-// // Because nums[1] + nums[2] = 2 + 4 = 6,
-// // return [1, 2].
+/**
+ * Checks if the largest element in the array is at least twice as much as every other number.
+ * @param {number[]} nums - The integer array.
+ * @returns {number} - The index of the largest element if it meets the condition, otherwise -1.
+ */
+function checkLargestElement(nums) {}
 
-// // Given nums = [3, 3], target = 6,
-// // Because nums[0] + nums[1] = 3 + 3 = 6,
-// // return [0, 1].
-
-module.exports = function twoSum(nums, target) {
-  // your code here
-};
+module.exports = checkLargestElement;
