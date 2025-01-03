@@ -1,26 +1,34 @@
 # Lesson 12: Stacks Continued
 
-## Warm-up Written Question (10 minutes)
-Explain how stacks can be used to check for balanced symbols (e.g., parentheses, brackets, and curly braces) in an expression. Why is the LIFO property important for this task?
-
 ## Lecture Content (20 minutes)
 
 ### Deep Dive into Stack Applications
-1. Balanced Symbols
-   - Parentheses validation
-   - Brackets and curly braces in code editors
 
-2. Expression Evaluation
-   - Postfix notation (Reverse Polish Notation)
-   - Converting infix to postfix
+#### Balanced Symbols
+Learn how stacks are used to determine if parentheses, brackets, and braces in a string are balanced.  
+- [Check for Balanced Parentheses (GeeksforGeeks)](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/)  
+- [Parentheses Matching Problem Explained (YouTube)](https://www.youtube.com/watch?v=QZOLb0xHB_Q)
 
-3. Stack-Based Algorithms
-   - Backtracking
-   - Depth-first search (DFS)
+#### Expression Evaluation
+Explore how stacks assist in evaluating postfix expressions and converting between infix, prefix, and postfix notation.  
+- [Evaluation of Postfix Expression (GeeksforGeeks)](https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/)  
+- [Infix, Prefix, and Postfix Notation (Khan Academy)](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/infix-prefix-and-postfix-notation)
 
-4. Performance Considerations
-   - Time complexity of stack operations
-   - Memory usage in stack-based recursion
+#### Stack-Based Algorithms
+Discover the use of stacks in algorithms like backtracking and depth-first search.  
+- [Backtracking Algorithm Explained (FreeCodeCamp)](https://www.freecodecamp.org/news/backtracking-algorithm/)  
+- [Depth First Search Algorithm (GeeksforGeeks)](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+
+#### Performance Considerations
+Understand the time complexity and memory usage of stack operations.  
+- [Big O Cheat Sheet: Time Complexity of Stack Operations](https://www.bigocheatsheet.com/)  
+- [Memory Management in Python (Real Python)](https://realpython.com/python-memory-management/)
+
+#### Real-World Use Cases
+Examine practical implementations of stacks, such as undo/redo functionality and XML parsing.  
+- [Undo/Redo Implementation with Stacks (Medium)](https://medium.com/swlh/undo-redo-stack-implementation-5d42cde6e7d2)  
+- [Check if Tags are Balanced in XML File (GeeksforGeeks)](https://www.geeksforgeeks.org/check-if-tags-are-balanced-in-an-xml-file/)
+
 
 ### Real-World Use Cases
 - Compilers and interpreters
