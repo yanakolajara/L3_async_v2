@@ -4,7 +4,7 @@
 
 ## Written Question (5 minutes)
 
-Describe how an array can be used to manage a to-do list. Explain how you would add tasks, remove tasks, and access specific tasks. Additionally, discuss how using an array might differ from using a more complex data structure like a linked list for this application. Include advantages or disadvantages of using an array for managing a to-do list.
+Describe how an array can be used to manage a to-do list. Explain how you would add tasks, remove tasks, and access specific tasks.
 
 ## Lecture Content (20 minutes)
 
@@ -12,15 +12,7 @@ In this lecture, we will expand on the topic of arrays and explore some addition
 
 ### Array Methods
 
-JavaScript provides several built-in methods that can be used to manipulate arrays. Here are a few commonly used methods:
-
-- `push`: Adds one or more elements to the end of an array.
-
-```javascript
-let fruits = ["apple", "banana"];
-fruits.push("orange", "grape");
-console.log(fruits); // Output: ['apple', 'banana', 'orange', 'grape']
-```
+JavaScript provides several built-in methods that can be used to manipulate arrays. Last lecture we reviewed 'push' and 'slice.' Here are a few more important ones.
 
 - `pop`: Removes the last element from an array and returns it.
 
@@ -115,10 +107,24 @@ These are just a few examples of the many operations that can be performed on ar
 
 ## Recap (15 minutes)
 
-In this lesson, we continued our exploration of arrays in JavaScript. We learned about various array methods that can be used to manipulate and iterate over arrays. Some of the methods we covered include `push`, `pop`, `shift`, `unshift`, `forEach`, `map`, and `filter`. These methods allow us to add and remove elements from arrays, iterate over array elements, and create new arrays based on existing ones. We also discussed array searching and sorting methods such as `indexOf` and `sort`.
+In this lesson, we continued our exploration of arrays in JavaScript. We learned about various array methods that can be used to manipulate and iterate over arrays. Some of the methods we covered include `pop`, `shift`, `unshift`, `forEach`, `map`, and `filter`. These methods allow us to add and remove elements from arrays, iterate over array elements, and create new arrays based on existing ones. We also discussed array searching and sorting methods such as `indexOf` and `sort`.
 
 Arrays are a fundamental data structure in programming and understanding their methods and operations is crucial for effective programming. Using arrays to manage a to-do list allows us to easily add tasks, remove tasks, and access specific tasks using index-based operations. However, using a more complex data structure like a linked list may provide advantages such as efficient insertion and deletion operations, especially for large to-do lists. It's important to consider the specific requirements and constraints of the application when choosing the appropriate data structure.
 
 Overall, arrays provide a versatile and powerful tool for managing and manipulating collections of data in JavaScript.
 
+## Wrap Up
+
+- Push work to fork
+- Fill Out Checkout form
+
 ## Additional Resources
+
+### MDN: Array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+
+### Practice Problems
+
+- https://www.codewars.com/kata/normalizing-out-of-range-array-indexes
+- https://www.codewars.com/kata/find-the-missing-letter

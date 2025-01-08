@@ -42,4 +42,17 @@
 
 ---
 
-### Additional Resources
+## Wrap Up
+
+- Push work to fork
+- Fill Out Checkout form
+
+## Additional Resources
+
+### Neetcode: Big-O Notation - For Coding Interviews
+
+- https://youtu.be/BgLTDT03QtU?si=yEsZwU8OZ12xTYls
+
+### Practice Problems
+
+- https://www.101computing.net/big-o-notation-quiz/

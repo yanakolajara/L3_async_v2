@@ -2,7 +2,7 @@
 
 ## Warm-up Written Question (15 minutes)
 
-What is the benefit of writing tests before implementing code? Provide a real-world analogy.
+Imagine you are asked to build a frying pan. What kind of requirements would you want to include? How would make sure that the pan meets the requirements?
 
 ## Lecture Content (20 minutes)
 

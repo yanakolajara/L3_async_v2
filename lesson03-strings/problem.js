@@ -1,6 +1,6 @@
 /**
- * Implement strStr().
- * Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+ *
+ * Given a string and a character, return the index of the first occurrence of a given character (needle) in haystack (string), or -1 if needle is not part of haystack.
  * @param {string} haystack
  * @param {string} needle
  * @return {number}

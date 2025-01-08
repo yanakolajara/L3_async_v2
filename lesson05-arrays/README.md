@@ -52,12 +52,19 @@ console.log(fruits); // Output: ['apple', 'grape', 'orange']
 
 JavaScript provides a variety of built-in methods for manipulating arrays. Here are a few commonly used methods:
 
-- `push()`: Adds one or more elements to the end of an array.
-- `pop()`: Removes the last element from an array and returns it.
-- `shift()`: Removes the first element from an array and returns it.
-- `unshift()`: Adds one or more elements to the beginning of an array.
 - `slice()`: Returns a new array containing a portion of the original array.
-- `splice()`: Changes the contents of an array by removing, replacing, or adding elements.
+
+### Using `slice()`
+
+The `slice()` method returns a new array containing a portion of the original array. It takes two parameters: the starting index (inclusive) and the ending index (exclusive). Here's an example:
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+let sliced = numbers.slice(2, 4);
+console.log(sliced); // Output: [3, 4]
+```
+
+In this example, `slice(2, 4)` returns a new array `[3, 4]` which contains the elements at index 2 and 3 from the original `numbers` array.
 
 ### Iterating Over Arrays
 
@@ -68,39 +75,7 @@ let numbers = [1, 2, 3, 4, 5];
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
-```
 
-### Array Manipulation Examples
-
-Let's look at a few examples of manipulating arrays using JavaScript:
-
-```javascript
-let numbers = [1, 2, 3, 4, 5];
-
-// Adding elements to the end of an array
-numbers.push(6);
-console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
-
-// Removing the last element from an array
-numbers.pop();
-console.log(numbers); // Output: [1, 2, 3, 4, 5]
-
-// Adding elements to the beginning of an array
-numbers.unshift(0);
-console.log(numbers); // Output: [0, 1, 2, 3, 4, 5]
-
-// Removing the first element from an array
-numbers.shift();
-console.log(numbers); // Output: [1, 2, 3, 4, 5]
-
-// Slicing a portion of an array
-let sliced = numbers.slice(2, 4);
-console.log(sliced); // Output: [3, 4]
-
-// Splicing elements into an array
-numbers.splice(2, 0, 2.5, 2.75);
-console.log(numbers); // Output: [1, 2, 2.5, 2.75, 3, 4, 5]
-```
 
 ### Conclusion
 
@@ -108,9 +83,7 @@ In this lecture, we covered the basics of arrays in JavaScript. We learned how t
 
 ## Problem Solving (35 minutes)
 
-### LeetCode Problem: "Two Sum"
-
-## Recap (15 minutes)
+## Recap (10 minutes)
 
 ### Review Warmup
 
@@ -118,4 +91,20 @@ In this lecture, we covered the basics of arrays in JavaScript. We learned how t
 
 In this lesson, we explored the concept of arrays in JavaScript. Arrays are a fundamental data structure that allow us to store and manipulate collections of values. We learned about the basics of arrays, including how to create arrays using array literal syntax or the Array constructor. We also learned how to access and modify array elements using index notation, as well as how to use various array methods for manipulation. Additionally, we discussed how to iterate over arrays using loops like `for` and `forEach`. Finally, we saw some examples of array manipulation in JavaScript, such as adding and removing elements, slicing arrays, and splicing elements into arrays. Arrays are a powerful tool for organizing and manipulating collections of data in JavaScript.
 
+## Wrap Up
+
+- Push work to fork
+- Fill Out Checkout form
+
 ## Additional Resources
+
+### MDN: Array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+### Practice Problems
+
+- https://www.codewars.com/kata/find-the-smallest-integer-in-the-array
+- https://www.codewars.com/kata/sum-of-prime-indexed-elements
+- https://www.codewars.com/kata/sort-the-odd
+```

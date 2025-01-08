@@ -4,7 +4,7 @@
 
 ## Written Question (5 minutes)
 
-What problems do you think can arise from having duplicate keys in a hash table? Discuss why unique keys are essential.
+Imagine you were charged with building a mail delivery robot for you office. The office is composed of cubicles that are all the same width and depth. The cubicles are arranged in rows and rows are evenly spaced apart. How might could instruct the robot to deliver mail to a cubicle by looking at a number on the package?
 
 ## Lecture Content (20 minutes)
 
@@ -28,12 +28,17 @@ Briefly introduce methods like chaining and open addressing.
 
 ## Problem Solving (35 minutes)
 
-Give students a problem to implement a basic hash table using chaining to handle collisions. Encourage them to consider what happens when two keys hash to the same index.
-
 ## Recap (15 minutes)
 
 Review key concepts and answer any questions. Summarize how hash tables operate efficiently and why choosing a good hash function is critical to minimize collisions.
 
 ## Additional Resources
 
-Video: "Hash Tables in 10 Minutes" https://youtu.be/shs0KM3wKv8?si=_vsP1RNe22P-Zk3U
+#### Legendary Author of "Cracking the Coding Interview," Gayle Lackman McDowel, Breaks It Down
+
+- Video: "Data Structures: Hash Tables" https://youtu.be/shs0KM3wKv8?si=_vsP1RNe22P-Zk3U
+
+#### Practice Problems
+
+- https://www.codewars.com/kata/5533c2a50c4fea6832000101/javascript
+- https://leetcode.com/problems/ransom-note/description/?envType=problem-list-v2&envId=hash-table
