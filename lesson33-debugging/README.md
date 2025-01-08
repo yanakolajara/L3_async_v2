@@ -21,17 +21,6 @@
 
 ## Problem Solving (35 minutes)
 
-- Debugging Exercises:
-
-## Independent (10 minutes):
-
-- Debug a memory leak in a web application.
-
-## Pair Programming (10 minutes):
-
-- Resolve timing issues in a web app's JavaScript code using conditional breakpoints.
-- Pair with AI (15 minutes): Tackle a complex data structure manipulation error with the help of AI insights.
-
 ## Recap (10 minutes)
 
 Review the syntax problem and written question.
