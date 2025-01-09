@@ -1,26 +1,29 @@
-const topKFrequent = require("/Users/paulgasbarra/Code/pursuit/dsa-coursework-l3-2025/lesson08-hash-tables/problem");
+const sumConsecutiveNumbers = require("/Users/paulgasbarra/Code/pursuit/dsa-coursework-l3-2025/lesson07-big-o-notation/problem");
 
-// Test case 1: nums contains positive and negative numbers
-let nums = [1, -2, 2, 3, -3, 3, 3];
-let k = 2;
-console.log(topKFrequent(nums, k)); // Output: [3, -3]
+describe("sumConsecutiveNumbers", () => {
+  it("should return 0 when n is 0", () => {
+    expect(sumConsecutiveNumbers(0)).toBe(0);
+  });
 
-// Test case 2: nums contains duplicate elements
-nums = [1, 2, 2, 3, 3, 3];
-k = 3;
-console.log(topKFrequent(nums, k)); // Output: [3, 2, 1]
+  it("should return 1 when n is 1", () => {
+    expect(sumConsecutiveNumbers(1)).toBe(1);
+  });
 
-// Test case 3: nums contains only one element
-nums = [7];
-k = 1;
-console.log(topKFrequent(nums, k)); // Output: [7]
+  it("should return 3 when n is 2", () => {
+    expect(sumConsecutiveNumbers(2)).toBe(3);
+  });
 
-// Test case 4: nums contains all the same elements
-nums = [5, 5, 5, 5, 5];
-k = 1;
-console.log(topKFrequent(nums, k)); // Output: [5]
+  it("should return 6 when n is 3", () => {
+    expect(sumConsecutiveNumbers(3)).toBe(6);
+  });
 
-// Test case 5: nums contains both positive and negative numbers with the same frequency
-nums = [-1, -1, 1, 1, 2, 2];
-k = 2;
-console.log(topKFrequent(nums, k)); // Output: [1, -1]
+  it("should return 15 when n is 5", () => {
+    expect(sumConsecutiveNumbers(5)).toBe(15);
+  });
+
+  it("should return 55 when n is 10", () => {
+    expect(sumConsecutiveNumbers(10)).toBe(55);
+  });
+
+  // Add more test cases here...
+});

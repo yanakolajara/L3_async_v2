@@ -108,3 +108,5 @@ Let's recap what we've learned:
 3. **Complexity**: Binary search has a time complexity of O(log n) and a space complexity of O(1).
 
 ## Additional Resources
+
+-[Binary Search Algorithm in 100 Seconds](https://youtu.be/MFhxShGxHWc?si=RH3Qu4_fLVosQXBu)

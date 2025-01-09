@@ -1,16 +1,8 @@
-// Please follow the prompts below to get practice using object methods such as Object.keys, Object.values, and Object.entries.
+// Prompt 1: Find if an item is repeated in an array. Given an array of integers, find if an integer appears more than once in the array.
+const hasDuplicate = (nums) => {};
 
-// 1. Create an object called `myObject` with the following key-value pairs:
-//    - name: "JavaScript"
-//    - est: 1995
-//    - libraries: ["React", "Angular", "Vue"]
+// Prompt 2: Count occurrences of a letter from one string in another string. Given two strings, find the number of times a letter from the first string appears in the second string.
+const countLetterOccurrences = (str1, str2) => {};
 
-// 2. Log the `myObject` object to the console.
-
-// 3. Store the keys of `myObject` in a variable called `myObjectKeys`.
-
-// 4. Log the `myObjectKeys` variable to the console.
-
-// 5. Store the values of `myObject` in a variable called `myObjectValues`.
-
-// 6. Log the `myObjectValues` variable to the console.
+// Prompt 3: Find the maximum difference between two elements in an array. Given an array of integers, find the maximum difference between any two elements in the array.
+const maxDifference = (nums) => {};

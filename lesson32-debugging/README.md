@@ -34,6 +34,5 @@ Feedback: Quick survey on the day's lesson and materials.
 
 ## Additional Resources
 
-#### Practice Problems
-
--
+- [Debugging JavaScript - Chrome DevTools 101](https://developer.chrome.com/docs/devtools/javascript)
+- [The Secret Art of Debugging](https://dev.to/dotnet/the-secret-art-of-debugging-1lfi)

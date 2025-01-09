@@ -20,12 +20,10 @@
 
 ## Recap (10 minutes)
 
-Review the syntax problem and the written question.
-Discuss and explain the correct solutions and optimization techniques for the SQL exercises.
-Feedback: Collect feedback to assess understanding and identify areas needing additional clarification.
+- Review the syntax problem and the written question.
+- Discuss how far you got in SQLZoo.
+- Feedback: Collect feedback to assess understanding and identify areas needing additional clarification.
 
-## Maximized Learning & End Class (5 minutes)
+## Additional Resources
 
-Students submit their optimized SQL queries and performance analysis findings.
-Complete a feedback form on today's lesson.
-Offer additional online resources for SQL optimization and complex queries.
+- [stratascratch](https://platform.stratascratch.com/coding?code_type=1): coding questions for data folks

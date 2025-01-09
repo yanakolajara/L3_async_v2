@@ -1,117 +1,103 @@
-# Lesson #: Arrays Continued
+# Lesson 5: Arrays
 
 ## Warm-up (10 minutes)
 
 ## Written Question (5 minutes)
 
-Describe how an array can be used to manage a to-do list. Explain how you would add tasks, remove tasks, and access specific tasks.
+Question: Imagine you have a collection of vintage records that you like to listen to, but you want to make the records you liked the most easiest to access. How would you organize your collection so that your favorite records are quickly reachable? Consider how you might want to retrieve a record based on how much you like it, rather than just randomly picking. What benefits would this type of organization provide?
 
 ## Lecture Content (20 minutes)
 
-In this lecture, we will expand on the topic of arrays and explore some additional concepts and operations that can be performed on arrays.
+In this lecture, we will explore the concept of arrays in JavaScript. Arrays are a fundamental data structure that allow us to store and manipulate collections of values.
+
+### Introduction to Arrays
+
+An array is an ordered collection of elements, where each element can be accessed using its index. The index starts from 0 for the first element and increments by 1 for each subsequent element. Arrays can store values of any data type, including numbers, strings, objects, and even other arrays.
+
+### Creating Arrays
+
+To create an array in JavaScript, we can use the array literal syntax `[]` or the `Array` constructor. Here are a few examples:
+
+```javascript
+// Using array literal syntax
+let numbers = [1, 2, 3, 4, 5];
+let fruits = ["apple", "banana", "orange"];
+
+// Using Array constructor
+let colors = new Array("red", "green", "blue");
+let mixed = new Array(1, "two", { name: "John" });
+```
+
+### Accessing Array Elements
+
+We can access individual elements of an array using square brackets `[]` and the index of the element. For example:
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers[0]); // Output: 1
+console.log(numbers[2]); // Output: 3
+```
+
+### Modifying Array Elements
+
+Arrays are mutable, which means we can modify their elements after they are created. We can assign new values to specific elements using the index. For example:
+
+```javascript
+let fruits = ["apple", "banana", "orange"];
+fruits[1] = "grape";
+console.log(fruits); // Output: ['apple', 'grape', 'orange']
+```
 
 ### Array Methods
 
-JavaScript provides several built-in methods that can be used to manipulate arrays. Last lecture we reviewed 'push' and 'slice.' Here are a few more important ones.
+JavaScript provides several built-in methods that can be used to manipulate arrays. Here are two commonly used methods:
 
-- `pop`: Removes the last element from an array and returns it.
-
-```javascript
-let fruits = ["apple", "banana", "orange"];
-let removedFruit = fruits.pop();
-console.log(removedFruit); // Output: 'orange'
-console.log(fruits); // Output: ['apple', 'banana']
-```
-
-- `shift`: Removes the first element from an array and returns it.
+- `push`: Adds one or more elements to the end of an array.
 
 ```javascript
-let fruits = ["apple", "banana", "orange"];
-let removedFruit = fruits.shift();
-console.log(removedFruit); // Output: 'apple'
-console.log(fruits); // Output: ['banana', 'orange']
+let fruits = ["apple", "banana"];
+fruits.push("orange", "grape");
+console.log(fruits); // Output: ['apple', 'banana', 'orange', 'grape']
 ```
 
-- `unshift`: Adds one or more elements to the beginning of an array.
+- `slice()`: Returns a new array containing a portion of the original array.
 
-```javascript
-let fruits = ["banana", "orange"];
-fruits.unshift("apple", "grape");
-console.log(fruits); // Output: ['apple', 'grape', 'banana', 'orange']
-```
+### Using `slice()`
 
-### Array Iteration
-
-Arrays can be iterated using loops or higher-order functions like `forEach`, `map`, `filter`, etc.
-
-- `forEach`: Executes a provided function once for each array element.
+The `slice()` method returns a new array containing a portion of the original array. It takes two parameters: the starting index (inclusive) and the ending index (exclusive). Here's an example:
 
 ```javascript
 let numbers = [1, 2, 3, 4, 5];
-numbers.forEach(function (number) {
-  console.log(number);
-});
-// Output:
-// 1
-// 2
-// 3
-// 4
-// 5
+let sliced = numbers.slice(2, 4);
+console.log(sliced); // Output: [3, 4]
 ```
 
-- `map`: Creates a new array with the results of calling a provided function on every element in the array.
+In this example, `slice(2, 4)` returns a new array `[3, 4]` which contains the elements at index 2 and 3 from the original `numbers` array.
+
+### Iterating Over Arrays
+
+We can use loops, such as `for` and `forEach`, to iterate over the elements of an array. Here's an example using a `for` loop:
 
 ```javascript
 let numbers = [1, 2, 3, 4, 5];
-let doubledNumbers = numbers.map(function (number) {
-  return number * 2;
-});
-console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
-```
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
 
-- `filter`: Creates a new array with all elements that pass the test implemented by the provided function.
 
-```javascript
-let numbers = [1, 2, 3, 4, 5];
-let evenNumbers = numbers.filter(function (number) {
-  return number % 2 === 0;
-});
-console.log(evenNumbers); // Output: [2, 4]
-```
+### Conclusion
 
-### Array Searching and Sorting
-
-JavaScript provides methods for searching and sorting arrays.
-
-- `indexOf`: Returns the first index at which a given element can be found in the array, or -1 if it is not present.
-
-```javascript
-let fruits = ["apple", "banana", "orange"];
-let index = fruits.indexOf("banana");
-console.log(index); // Output: 1
-```
-
-- `sort`: Sorts the elements of an array in place and returns the sorted array.
-
-```javascript
-let fruits = ["banana", "apple", "orange"];
-fruits.sort();
-console.log(fruits); // Output: ['apple', 'banana', 'orange']
-```
-
-These are just a few examples of the many operations that can be performed on arrays in JavaScript. Arrays are a fundamental data structure in programming and understanding their various methods and operations is essential for effective programming.
+In this lecture, we covered the basics of arrays in JavaScript. We learned how to create arrays, access and modify their elements, use array methods, and iterate over arrays. Arrays are a powerful tool for organizing and manipulating collections of data in JavaScript.
 
 ## Problem Solving (35 minutes)
 
-### "Remove Duplicates from Sorted Array"
+## Recap (10 minutes)
 
-## Recap (15 minutes)
+### Review Warmup
 
-In this lesson, we continued our exploration of arrays in JavaScript. We learned about various array methods that can be used to manipulate and iterate over arrays. Some of the methods we covered include `pop`, `shift`, `unshift`, `forEach`, `map`, and `filter`. These methods allow us to add and remove elements from arrays, iterate over array elements, and create new arrays based on existing ones. We also discussed array searching and sorting methods such as `indexOf` and `sort`.
+### Review Written Warmup
 
-Arrays are a fundamental data structure in programming and understanding their methods and operations is crucial for effective programming. Using arrays to manage a to-do list allows us to easily add tasks, remove tasks, and access specific tasks using index-based operations. However, using a more complex data structure like a linked list may provide advantages such as efficient insertion and deletion operations, especially for large to-do lists. It's important to consider the specific requirements and constraints of the application when choosing the appropriate data structure.
-
-Overall, arrays provide a versatile and powerful tool for managing and manipulating collections of data in JavaScript.
+In this lesson, we explored the concept of arrays in JavaScript. Arrays are a fundamental data structure that allow us to store and manipulate collections of values. We learned about the basics of arrays, including how to create arrays using array literal syntax or the Array constructor. We also learned how to access and modify array elements using index notation, as well as how to use various array methods for manipulation. Additionally, we discussed how to iterate over arrays using loops like `for` and `forEach`. Finally, we saw some examples of array manipulation in JavaScript, such as adding and removing elements, slicing arrays, and splicing elements into arrays. Arrays are a powerful tool for organizing and manipulating collections of data in JavaScript.
 
 ## Wrap Up
 
@@ -122,9 +108,11 @@ Overall, arrays provide a versatile and powerful tool for managing and manipulat
 
 ### MDN: Array
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 ### Practice Problems
 
-- https://www.codewars.com/kata/normalizing-out-of-range-array-indexes
-- https://www.codewars.com/kata/find-the-missing-letter
+- https://www.codewars.com/kata/find-the-smallest-integer-in-the-array
+- https://www.codewars.com/kata/sum-of-prime-indexed-elements
+- https://www.codewars.com/kata/sort-the-odd
+```

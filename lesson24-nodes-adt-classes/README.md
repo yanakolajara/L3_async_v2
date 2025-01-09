@@ -69,3 +69,5 @@ while (current) {
 3. Nodes can hold more than one reference (e.g., left and right children), enabling hierarchical structures like trees.
 
 ## Additional Resources
+
+- [Linked List - Beau teaches JavaScript](https://www.youtube.com/watch?v=9YddVVsdG5A)

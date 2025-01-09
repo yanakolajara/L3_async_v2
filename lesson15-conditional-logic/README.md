@@ -1,43 +1,45 @@
-# Lesson 15: Advanced Conditional Logic (Nested and Multi-level Conditionals)
+# Lesson 1: Introduction to Conditional Logic
 
-## Warm Up (10 minutes):
+Daily Lesson Structure
+
+## Warm up (10 minutes):
 
 ## Written Question (5 minutes):
 
-"What are nested conditionals and when might you use them?" Everyone posts their answer simultaneously after a 5-minute timer.
+"Why do we use conditional statements in programming?" Post the question in Slack, have everyone submit their answers simultaneously after a 5-minute timer.
 
 ## Topic Overview (20 minutes):
 
-### Nested Conditionals:
+Quick review of conditional logic: Review if, else, and else if statements.
 
-Introduce concepts of nesting if statements within others and using logical operators (&&, ||).
+Move on to more advanced control flow and common control flow techniques
 
-### Left Associativity
+- Returning early
+- Cascading logic
 
-Logical operators are evaluated from left to right.
+## Problem Solving (35 minutes):
 
-### Real-World Application:
-
-Discuss scenarios where complex decision-making is necessary, like determining discounts based on multiple criteria.
-
-### Problem Solving (35 minutes):
-
-Problem Focus: Extend the lemonade stand problem to include discounts for regular customers or extra charges for special ingredients.
+Problem Focus: Given the price of a lemonade and the amount a customer pays, determine how much change to give back.
 Activities:
-Pseudocode: Handle multiple pricing scenarios using nested conditionals.
-Code: Implement the complex logic in code.
-Reflection: Reflect on the challenges of maintaining readability and logic integrity with nested conditionals.
+Pseudocode: Write pseudocode for handling various payment scenarios (exact amount, more, or less).
+Code: Implement the pseudocode in a suitable programming language.
+Reflection: Discuss what happens if conditions are not met or are incorrectly implemented.
 
 ## Recap (15 minutes):
 
-Review the written quiz question from the start of class.
-Solution Review: Discuss the extended problem and its solutions.
-Feedback Submission: Gather feedback on the clarity and challenge of the session.
+Review the written quiz question.
+Solution Review: Go over the coding solution and discuss different scenarios that were handled.
+Feedback Submission: Encourage feedback on the session.
 Resources:
 
-Advanced examples of nested conditionals.
-Interactive exercises to practice multilevel conditional logic.
-Learning Deliverables:
+Code editor or IDE setup for live coding.
+Example snippets and cheat sheets on conditional logic.
 
-Mastery of nested and multilevel conditional statements.
-Ability to apply complex decision-making logic in programming tasks.
+### Learning Deliverables:
+
+Understand the basic use of conditional statements.
+Apply simple if-else logic to solve a practical problem.
+
+### Additional Materials
+
+[8 Patterns to solve 80% Leetcode problems](https://www.youtube.com/watch?v=xo7XrRVxH8Y)

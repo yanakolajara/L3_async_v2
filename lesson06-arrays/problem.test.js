@@ -1,17 +1,16 @@
-const removeDuplicates = require("./problem");
+const checkLargestElement = require("./problem");
 
-test("Returns correct array with duplicates removed", () => {
-  expect(removeDuplicates([1, 2, 3, 3, 4, 5])).toEqual([1, 2, 3, 4, 5]);
-});
-
-test("Returns correct array with duplicates removed", () => {
-  expect(removeDuplicates([1, 1, 1, 1, 1, 1])).toEqual([1]);
-});
-
-test("Returns correct array with duplicates removed", () => {
-  expect(removeDuplicates([1, 2, 3, 4, 5])).toEqual([1, 2, 3, 4, 5]);
-});
-
-test("Returns correct array with duplicates removed", () => {
-  expect(removeDuplicates([1, 1, 2, 2, 3, 3])).toEqual([1, 2, 3]);
+describe("checkLargestElement", () => {
+  test("should return the largest element in an array of positive numbers", () => {
+    const nums = [1, 5, 3, 9, 2];
+    expect(checkLargestElement(nums)).toBe(9);
+  });
+  test("should return the largest element in an array of negative numbers", () => {
+    const nums = [-7, -2, -5, -1];
+    expect(checkLargestElement(nums)).toBe(-1);
+  });
+  test("should return the largest element in an array of mixed numbers", () => {
+    const nums = [-7, 5, -5, 1];
+    expect(checkLargestElement(nums)).toBe(5);
+  });
 });

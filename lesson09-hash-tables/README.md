@@ -1,40 +1,44 @@
-# Lecture 2: Advanced Hash Table Operations
+# Lecture 1: Introduction to Hash Tables
 
 ## Warm-up (10 minutes)
 
 ## Written Question (5 minutes)
 
-What's better a hash table or an array? Explain.
+Imagine you were charged with building a mail delivery robot for you office. The office is composed of cubicles that are all the same width and depth. The cubicles are arranged in rows and rows are evenly spaced apart. How might you instruct the robot to deliver mail to a cubicle by looking at a number on the package?
 
 ## Lecture Content (20 minutes)
 
-Dive deeper into hash table operations and performance tuning:
+Introduce the concept of hash tables, explaining how they use a hash function to compute an index into an array in which an element will be stored or searched. Cover the basics:
 
-### Load Factor:
+### Definition and Use:
 
-Definition and its impact on performance. Explain when to resize a hash table.
+Explain what hash tables are and why they are used.
 
-### Resizing a Hash Table:
+### Components of Hash Tables:
 
-Discuss how and why a hash table might need resizing, including what rehashing involves.
+Discuss keys, values, hash functions, buckets, and collisions.
 
-### Complexity Analysis:
+### Hash Function:
 
-Discuss the average and worst-case time complexities for insertions, deletions, and searches.
+Describe how keys are converted into array indices.
 
-### Advanced Collision Resolution Techniques:
+### Handling Collisions:
 
-Brief overview of techniques like linear probing, quadratic probing, and double hashing.
+Briefly introduce methods like chaining and open addressing.
 
 ## Problem Solving (35 minutes)
 
-Challenge students with a task to implement a hash table that resizes itself based on the load factor. This will involve calculating the load factor and writing a rehash function.
+## Recap (15 minutes)
 
-### Recap (15 minutes)
+Review key concepts and answer any questions. Summarize how hash tables operate efficiently and why choosing a good hash function is critical to minimize collisions.
 
-Recap the day’s lesson focusing on why managing the load factor and choosing the right collision resolution technique can drastically affect the performance of a hash table.
+## Additional Resources
 
-### Additional Resources
+#### Legendary Author of "Cracking the Coding Interview," Gayle Lackman McDowel, Breaks It Down
 
-- https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
-- https://www.codewars.com/kata/554ca54ffa7d91b236000023
+- Video: "Data Structures: Hash Tables" https://youtu.be/shs0KM3wKv8?si=_vsP1RNe22P-Zk3U
+
+#### Practice Problems
+
+- https://www.codewars.com/kata/5533c2a50c4fea6832000101/javascript
+- https://leetcode.com/problems/ransom-note/description/?envType=problem-list-v2&envId=hash-table

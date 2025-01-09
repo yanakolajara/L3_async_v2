@@ -82,3 +82,5 @@ class LinkedList {
 ## Recap (15 minutes)
 
 ## Additional Resources
+
+[Linked List Cycle - Floyd's Tortoise and Hare](https://www.youtube.com/watch?v=gBTe7lFR3vc)

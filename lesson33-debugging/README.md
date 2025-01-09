@@ -33,3 +33,5 @@ Students push their corrected work to their GitHub fork.
 Complete the checkout form to gauge confidence levels and collect feedback.
 
 ## Additional Resources
+
+- [Debugging Like a Pro - ByteByteGo](https://www.youtube.com/watch?v=J8uAiZJMfzQ)

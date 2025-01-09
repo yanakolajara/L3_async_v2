@@ -1,15 +1,31 @@
 /**
- * Given a string containing just the characters '(', ')'.
- *
- * We will say this string is considered valid if:
- * 1. Open brackets must be closed by close brackets.
- * 2. Open brackets must be closed in the correct order.
- *
- * For example, "()" and "()(())" are valid but "())" and "()(()" are not.
- *
- * @param {string} s
- * @return {boolean}
+ * Implement a Stack class with the following methods:
+ * - push(item): Adds an item to the top of the stack.
+ * - pop(): Removes and returns the top item. If the stack is empty, return null.
+ * - peek(): Returns the top item without removing it. If the stack is empty, return null.
+ * - isEmpty(): Returns true if the stack is empty, false otherwise.
  */
-function isValid(s) {}
+ class Stack {
+    constructor() {
+      this.items = [];
+    }
+  
+    push(item) {
 
-module.exports = isValid;
+    }
+  
+    pop() {
+    
+    }
+  
+    peek() {
+      
+    }
+  
+    isEmpty() {
+      
+    }
+  }
+  
+  module.exports = Stack;
+  
