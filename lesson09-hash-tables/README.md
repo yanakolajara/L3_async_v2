@@ -4,7 +4,7 @@
 
 ## Written Question (5 minutes)
 
-What is the load factor in a hash table and how does it affect performance?
+What's better a hash table or an array? Explain.
 
 ## Lecture Content (20 minutes)
 

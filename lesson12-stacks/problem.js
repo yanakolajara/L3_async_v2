@@ -1,17 +1,15 @@
 /**
- * Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
- * determine if the input string is valid.
- * 
- * A string is considered valid if:
- * 1. Open brackets must be closed by the same type of brackets.
+ * Given a string containing just the characters '(', ')'.
+ *
+ * We will say this string is considered valid if:
+ * 1. Open brackets must be closed by close brackets.
  * 2. Open brackets must be closed in the correct order.
- * 
+ *
+ * For example, "()" and "()(())" are valid but "())" and "()(()" are not.
+ *
  * @param {string} s
  * @return {boolean}
  */
- function isValid(s) {
-     
- }
-  
-  module.exports = isValid;
-  
+function isValid(s) {}
+
+module.exports = isValid;

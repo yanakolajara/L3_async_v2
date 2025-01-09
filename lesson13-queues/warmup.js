@@ -1,19 +1,32 @@
-// Warm-up exercises for Queues:
+// Prompt 1: Pulling penguins from the front
+const pullPenguins = (penguins, count) => {
+  // TODO: Implement the logic to pull 'count' number of penguins from the front of the line
+};
 
-// 1. Create a simple queue using an array and perform the following operations:
-//    a) Enqueue the numbers 1, 2, and 3.
-//    b) Dequeue an element and log the result.
-//    c) Peek at the front of the queue and log the result.
+// Prompt 2: Removing the last penguin
+const removeLastPenguin = (penguins) => {
+  // TODO: Implement the logic to remove the last penguin from the line
+};
 
-// 2. Write a function that takes a queue (array) and a number N. Enqueue numbers from 1 to N into the queue.
+// Prompt 3: Counting the penguins
+const countPenguins = (penguins) => {
+  // TODO: Implement the logic to count the number of penguins in the line
+};
 
-// Example: 
-// Input: queue = [], N = 5
-// Output: queue = [1, 2, 3, 4, 5]
+// Example usage
+const penguins = [
+  "Penguin 1",
+  "Penguin 2",
+  "Penguin 3",
+  "Penguin 4",
+  "Penguin 5",
+];
 
-// 3. Implement a function to reverse the elements of a queue using only a stack (array).
-// Example: 
-// Input: queue = [1, 2, 3, 4]
-// Output: queue = [4, 3, 2, 1]
+const pulledPenguins = pullPenguins(penguins, 3);
+console.log("Pulled penguins:", pulledPenguins);
 
-// Console.log your answers for each exercise.
+removeLastPenguin(penguins);
+console.log("Updated penguins:", penguins);
+
+const penguinCount = countPenguins(penguins);
+console.log("Total penguins:", penguinCount);

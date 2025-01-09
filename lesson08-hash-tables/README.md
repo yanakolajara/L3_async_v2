@@ -4,7 +4,7 @@
 
 ## Written Question (5 minutes)
 
-Imagine you were charged with building a mail delivery robot for you office. The office is composed of cubicles that are all the same width and depth. The cubicles are arranged in rows and rows are evenly spaced apart. How might could instruct the robot to deliver mail to a cubicle by looking at a number on the package?
+Imagine you were charged with building a mail delivery robot for you office. The office is composed of cubicles that are all the same width and depth. The cubicles are arranged in rows and rows are evenly spaced apart. How might you instruct the robot to deliver mail to a cubicle by looking at a number on the package?
 
 ## Lecture Content (20 minutes)
 

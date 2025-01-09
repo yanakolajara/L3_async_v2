@@ -10,9 +10,12 @@ Daily Lesson Structure
 
 ## Topic Overview (20 minutes):
 
-Basic Conditional Statements: Introduce if, else, and else if statements. Explain the syntax and how these statements control program flow based on boolean conditions.
+Quick review of conditional logic: Review if, else, and else if statements.
 
-Examples: Show simple examples, like checking if a user is eligible to vote based on age.
+Move on to more advanced control flow and common control flow techniques
+
+- Returning early
+- Cascading logic
 
 ## Problem Solving (35 minutes):
 

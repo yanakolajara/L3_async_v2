@@ -12,6 +12,10 @@
 
 Introduce concepts of nesting if statements within others and using logical operators (&&, ||).
 
+### Left Associativity
+
+Logical operators are evaluated from left to right.
+
 ### Real-World Application:
 
 Discuss scenarios where complex decision-making is necessary, like determining discounts based on multiple criteria.

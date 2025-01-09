@@ -10,16 +10,6 @@
  * @param {number[]} arr - An array of numbers
  * @return {number} - The sum of the array's elements
  */
- function sumArrayRecursively(arr) {
-    // Base case: if the array is empty, return 0
-    if (arr.length === 0) {
-      return 0;
-    }
-  
-    // Recursive case: first element + sum of the rest of the array
-    const [first, ...rest] = arr;
-    return first + sumArrayRecursively(rest);
-  }
-  
-  module.exports = sumArrayRecursively;
-  
+function sumArrayRecursively(arr) {}
+
+module.exports = sumArrayRecursively;

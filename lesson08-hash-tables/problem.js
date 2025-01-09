@@ -1,26 +1,22 @@
-/* Given an integer array nums and an integer k, return the k most frequent elements within the array.
+/*
+Problem Prompt:
+Write a function that takes in two strings and returns true if they are valid anagrams of each other, and false otherwise. An anagram is a word or phrase formed by rearranging the letters of another word or phrase.
 
-The test cases are generated such that the answer is always unique.
+Function Signature:
+function areAnagrams(str1, str2) {
+    // Your code here
+}
 
-You may return the output in any order.
-
-Example 1:
-
-Input: nums = [1,2,2,3,3,3], k = 2
-
-Output: [2,3]
-Example 2:
-
-Input: nums = [7,7], k = 1
-
-Output: [7]
-Constraints:
-
-1 <= nums.length <= 10^4.
--1000 <= nums[i] <= 1000
-1 <= k <= number of distinct elements in nums.
+Test Cases:
+console.log(areAnagrams("listen", "silent")); // Expected output: true
+console.log(areAnagrams("hello", "world")); // Expected output: false
+console.log(areAnagrams("rail safety", "fairy tales")); // Expected output: true
+console.log(areAnagrams("restful", "fluster")); // Expected output: true
+console.log(areAnagrams("programming", "coding")); // Expected output: false
 */
 
-function topKFrequent(nums, k) {}
+function areAnagrams(str1, str2) {
+  // Your code here
+}
 
-module.exports = topKFrequent;
+module.exports = areAnagrams;
