@@ -2,7 +2,7 @@
 
 ### Setup
 
-The objective of today's lesson is to get you set up with your environment. You will be using VSCode, GitHub, and your terminal to participate in class. By the end of this lesson you should have a working IDE and be able to run tests against the code you create.
+The objective of today's lesson is to get you set up with your environment. You will be using VSCode, GitHub, and your terminal to participate in class. By the end of this lesson you should have a working IDE and be able to run tests against the code you create. You should also be able to push your changes to github.
 
 ### VSCODE
 
@@ -22,7 +22,6 @@ Once you have VS Code installed. Select "Terminal" from the navigation menu. And
 
   - Make sure that you have the proper credentials and are able to log in.
 
-Get repo moved into mutual thing
 Set it up as a template,
 Forumulate instructions for
 

@@ -26,3 +26,6 @@ Problem: Implement a function that determines if a given year is a leap year. Th
 ## Recap (15 minutes)
 
 ## Additional Resources
+
+- [Big O Notation in 100 Seconds](https://www.youtube.com/watch?v=g2o22C3CRfU&t=42s)
+- [Dig into n(log n)](https://youtu.be/Mo4vesaut8g?si=af_Bc15KIxYd4jBt&t=3500)

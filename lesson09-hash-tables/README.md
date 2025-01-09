@@ -35,3 +35,6 @@ Challenge students with a task to implement a hash table that resizes itself bas
 Recap the day’s lesson focusing on why managing the load factor and choosing the right collision resolution technique can drastically affect the performance of a hash table.
 
 ### Additional Resources
+
+- https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
+- https://www.codewars.com/kata/554ca54ffa7d91b236000023

@@ -1,41 +1,31 @@
-# Lesson 28: Using Arrays to Identify Anagrams
+# SQL Lesson 2: Advanced SQL Queries and Optimization
 
-## Warm-up (15 minutes):
+## Warm-up (15 minutes)
 
-### Syntax Problem (10 minutes)
+- Syntax Problem (10 minutes): Correct a flawed SQL query that is supposed to list all orders from the last month but returns an error.
+- Written Question (5 minutes): Explain the difference between INNER JOIN and LEFT JOIN.
 
-### Written Question (5 minutes):
+## Topic (20 minutes)
 
-"How can arrays help in reducing the complexity of problems involving character comparison, such as finding anagrams?"
+### Lecture: Advanced SQL Techniques
 
-### Topic Overview (20 minutes):
+- Using subqueries and common table expressions (CTEs)
+- SQL performance tuning and index optimization
+- Complex joins and their impact on query performance
 
-#### Understanding Anagrams:
+## Problem Solving (35 minutes)
 
-Define what anagrams are and why they are interesting in both linguistics and computer science.
+- SQL Exercises:
+  Picking up from last lesson. See how far you can get in [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 
-#### Array Utilization in Anagrams:
+## Recap (10 minutes)
 
-Explain how to use arrays for character frequency counting and how this helps in efficiently determining if two strings are anagrams.
+Review the syntax problem and the written question.
+Discuss and explain the correct solutions and optimization techniques for the SQL exercises.
+Feedback: Collect feedback to assess understanding and identify areas needing additional clarification.
 
-### Problem Solving (35 minutes):
+## Maximized Learning & End Class (5 minutes)
 
-Implementation Task: Students will write a function that uses an array to determine if two strings are anagrams.
-Activities:
-Pseudocode: First, outline the approach using pseudocode.
-Coding: Implement the anagram check function.
-Reflection: Discuss how the use of arrays simplified the problem.
-
-### Recap (15 minutes):
-
-Review the Written Question: Discuss the array's role in simplifying the comparison of characters in strings.
-Problem Review: Review the solutions provided by students, highlighting efficient practices and common pitfalls.
-Feedback Submission: Encourage students to submit feedback on the clarity and challenge level of the lesson.
-Resources:
-
-Examples of anagrams and non-anagrams to use as test cases.
-Cheat sheets for array methods useful in manipulating character data.
-Learning Deliverables:
-
-Students will understand the use of arrays in solving problems that involve character data manipulation.
-They will develop the ability to apply array operations in practical programming problems, enhancing their problem-solving toolkit.
+Students submit their optimized SQL queries and performance analysis findings.
+Complete a feedback form on today's lesson.
+Offer additional online resources for SQL optimization and complex queries.

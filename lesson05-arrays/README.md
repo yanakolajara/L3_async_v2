@@ -50,7 +50,15 @@ console.log(fruits); // Output: ['apple', 'grape', 'orange']
 
 ### Array Methods
 
-JavaScript provides a variety of built-in methods for manipulating arrays. Here are a few commonly used methods:
+JavaScript provides several built-in methods that can be used to manipulate arrays. Here are two commonly used methods:
+
+- `push`: Adds one or more elements to the end of an array.
+
+```javascript
+let fruits = ["apple", "banana"];
+fruits.push("orange", "grape");
+console.log(fruits); // Output: ['apple', 'banana', 'orange', 'grape']
+```
 
 - `slice()`: Returns a new array containing a portion of the original array.
 
