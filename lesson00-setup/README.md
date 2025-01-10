@@ -21,15 +21,18 @@ Once you have VS Code installed. Select "Terminal" from the navigation menu. And
 - Log in to github.
 
   - Make sure that you have the proper credentials and are able to log in.
-
-Set it up as a template,
-Forumulate instructions for
+  - Navigate to this repo. https://github.com/pursuit-l3/winter-2025-technical-interview-practice
+  - Create your own fork, copy the link to the fork
 
 ### Terminal
 
+- In VS Code, open the terminal by using the app menu Terminal > New Terminal
+- Navigate to the directory of your choice, then use `git clone [your fork link]`
+- Now you can cd into the repo and run `npm install` to get the needed node modules.
+
 ## Warm-up (10 minutes)
 
-Once you have everything set up open the warm up file in this directory. Complete the instructions there. Then go into your terminal, make sure your prompt is operating in this directory and type...
+Once you have everything set up open the `warmup.js` file in this directory. Complete the instructions there. Then go into your terminal, make sure your prompt is operating in this directory and type...
 
 ```
 node warmup.js
