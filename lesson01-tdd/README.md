@@ -1,4 +1,4 @@
-# Lesson 1: Test-Driven Development and Simplest Valid Case Approach
+# Lesson: Test-Driven Development and Simplest Valid Case Approach
 
 ## Warm-up Written Question (15 minutes)
 

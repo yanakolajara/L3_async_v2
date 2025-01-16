@@ -1,4 +1,4 @@
-# Lesson 3: Advanced String Operations
+# Lesson: Advanced String Operations
 
 ## Warm-up Written Question (15 minutes)
 

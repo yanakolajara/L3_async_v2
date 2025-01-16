@@ -1,4 +1,4 @@
-# Lesson 2: String Fundamentals
+# Lesson: String Fundamentals
 
 ## Warm-up Written Question (15 minutes)
 

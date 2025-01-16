@@ -10,7 +10,7 @@
 
 ## Lecture Content (20 minutes)
 
-- Follow along to this [slide deck](https://docs.google.com/presentation/d/1b_WBquspc-v6ViZDxW5I_pjZ71FLEsafzR3lNXR1v54/edit#slide=id.g2e4c4fcb0c0_0_87)
+- Follow along to this [slide deck](https://docs.google.com/presentation/d/1I7JoEXo9AgCf6FMeGkVc214wPF2YY4ZqQiAjM8pgYlM/edit?usp=sharing)
 - Watch this [recording](https://us06web.zoom.us/rec/play/oE4d5S0YFNsSc0_w7XmX11ViJDF8U8cYtVYvDx_IuVZ57OhgyNcFG06M9sSmWMAQLaEPhjsjnHCczt5b.NrLV7wVpcDvlAu31?autoplay=true&startTime=1729607670000) of a fellow doing well in the interview.
 
 ## Recap (15 minutes)
